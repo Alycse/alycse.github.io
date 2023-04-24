@@ -14,6 +14,7 @@ function declareHome(){
     window.projectsButton = null;
 }
 
+
 function initHome(){
     if(landscape){
         crescentMoon = createWorldObject("Crescent Moon", {name: "image", images: {default: "/assets/img/home/crescent-moon.png"}}, -0.9, -0.5, 0, 0.5, 0);
