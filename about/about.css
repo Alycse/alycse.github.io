@@ -1,0 +1,64 @@
+@font-face {
+    font-family: VeraMono;
+    src: url(../assets/fonts/VeraMono.ttf);
+}
+
+@media only screen and (orientation: landscape) {
+    #about{
+        font-family: VeraMono;
+
+        position: fixed;
+
+        font-size: calc(0.45vw + 0.85vh);
+
+        text-align: left;
+
+        visibility: hidden;
+
+        top: 3.0vh;
+        
+        width: 30vw;
+
+        line-height: 1.5;
+
+        text-align: left;
+    }
+
+    #title{
+        font-size: 1.3vw;
+        margin-bottom: 1.0vw;
+        margin-left: 0.5vw;
+    }
+}
+@media only screen and (orientation: portrait) {
+    #about{
+        font-family: VeraMono;
+        font-size: calc(1.0vw + 1.0vh);
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    #title{
+        margin-top: 2vh;
+        font-size: 2.5vh;
+        margin-bottom: 2vh;
+        
+        visibility: hidden;
+    }
+}
+
+#content{
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 15px;
+}
+
+.highlightBlue{
+    color: #8fc3e9;
+}
+
+.highlightPurple{
+    color: #d0b4cf;
+}

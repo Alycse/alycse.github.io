@@ -1,0 +1,175 @@
+#content{
+    margin-top: calc(9.0vh + 3.0vw);
+    margin-bottom: calc(9.0vh + 3.0vw);
+}
+
+@media only screen and (orientation: landscape) {
+    #emailSection{
+        font-size: calc(0.8vh + 0.8vw);
+
+        margin-top: calc(2.1vh + 2.1vw);
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 25%;
+        
+        padding: 1.2em;
+        border-style: dotted;
+        border-radius: 0.5em;
+    }
+    #socialSection{
+        font-size: calc(0.8vh + 0.8vw);
+
+        margin-top: calc(2.1vh + 2.1vw);
+        margin-bottom: calc(4.1vh + 4.1vw);
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 25%;
+        
+        padding: 1.2em;
+        border-style: dotted;
+        border-radius: 0.5em;
+    }
+    #message{
+        width: 90%;
+    }
+    #name{
+        width: 90%;
+    }
+    #email{
+        width: 90%;
+    }
+}
+@media only screen and (orientation: portrait) {
+    #section{
+        font-size: calc(1.1vh + 1.1vw);
+        margin-top: calc(2.4vh + 2.4vw);
+    }
+    #emailSection{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: dotted;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #socialSection{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: calc(2.8vh + 2.8vw);
+        margin-bottom: calc(4.1vh + 4.1vw);
+
+        border-style: dotted;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #socialGreeting{
+        font-size: calc(0.8vh + 0.8vw);
+    }
+    #message{
+        width: 80%;
+    }
+    #name{
+        width: 80%;
+    }
+    #email{
+        width: 80%;
+    }
+}
+
+#result{
+    margin-top: calc(1.0vh + 1.0vw);
+    font-size: calc(0.65vh + 0.65vw);
+}
+
+.socialSite{
+    text-align: left;
+
+    margin-top: 1vh;
+    margin-bottom: 1.25vh;
+}
+.socialImage{
+    height: 1em;
+}
+#socialContent{
+    margin-top: calc(1.0vh + 1.0vw);
+}
+
+#title{
+    font-size: calc(1.0vh + 1.0vw);
+
+    color: rgb(200, 200, 200);
+
+    text-align: center;
+}
+
+.subtitle{
+    font-size: calc(1.0vh + 1.0vw);
+
+    color: rgb(200, 200, 200);
+}
+
+#subsection{
+    margin-top: calc(1.0vh + 1.0vw);
+
+}
+
+.field{
+    font-family: Calibri;
+    font-size: 1.2vw;
+}
+
+.error{
+    color: red;
+    margin-top: 3em;
+    font-size: calc(0.5vh + 0.5vw);
+
+    visibility: hidden;
+}
+
+.required{
+    color: red;
+    margin-left: 8px;
+}
+
+
+.blockTitle{
+    margin-bottom: 0.5em;
+}
+
+.block{
+    margin-top: calc(0.8vh + 0.8vw);
+}
+
+#messageTitle{
+    margin: 1vh;
+}
+
+textarea {
+    resize: none;
+}
+
+button{
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    border-style: none;
+    padding: calc(0.7vh + 0.7vw);
+
+    font-size: calc(0.7vh + 0.7vw);
+}
+button:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+#sendButton{
+    margin-top: calc(0.7vh + 0.7vw);
+}
+
+a{
+    text-decoration: none;
+}

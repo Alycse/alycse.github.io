@@ -1,0 +1,201 @@
+#content{
+    margin-top: calc(8.0vh + 3.0vw);
+}
+
+@media only screen and (orientation: landscape) {
+    #section{
+        width: 60%;
+        font-size: calc(0.8vh + 0.8vw);
+    }
+}
+@media only screen and (orientation: portrait) {
+    #section{
+        width: 90%;
+        font-size: calc(1.1vh + 1.1vw);
+    }
+}
+
+#title{
+    font-size: calc(1.0vh + 1.0vw);
+
+    color: rgb(200, 200, 200);
+
+    text-align: center;
+}
+
+.subtitle{
+    font-size: calc(1.0vh + 1.0vw);
+
+    color: rgb(200, 200, 200);
+}
+
+#subsection{
+    margin-top: calc(1.0vh + 1.0vw);
+}
+
+@media only screen and (orientation: landscape) {
+    .small{
+        font-size: 1.6vh;
+    }
+    .medium{
+        font-size: 2.4vh;
+    }
+    .big{
+        font-size: 2.8vh;
+    }
+
+    #projectsTable{
+        text-align: center;
+    
+        border-style: dashed;
+        border-radius: 15px;
+        
+        width: 30%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: calc(2.5vh + 2.5vw);
+    
+        text-align: left;
+        
+        padding: calc(1vh + 1vw);
+    }
+
+    .project{
+        font-family: Helvetica, sans-serif;
+
+        padding-top: 2vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+
+        border-style: dashed;
+        border-radius: 15px;
+
+        width: 70%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 4vw;
+    }
+
+    .projectVideo{
+        width: 45%;
+        height: auto;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .small{
+        font-size: 1.2vh;
+    }
+    .medium{
+        font-size: 1.4vh;
+    }
+    .big{
+        font-size: 2.2vh;
+    }
+
+    #projectsTable{
+        text-align: center;
+    
+        border-style: dashed;
+        border-radius: 15px;
+        
+        width: 70%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: calc(2.5vh + 2.5vw);
+    
+        text-align: left;
+        
+        padding: calc(1vh + 1vw);
+    }
+    
+    .project{
+        font-family: Helvetica, sans-serif;
+
+        padding-top: 2vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+
+        border-style: dashed;
+        border-radius: 15px;
+
+        width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 2vw;
+    }
+
+    .projectVideo{
+        height: 90%;
+        width: 100%;
+    }
+}
+
+.descriptionName{
+    color: rgb(200, 200, 200);
+}
+.description{
+    color: rgb(255, 255, 255);
+}
+.description-light{
+    color: rgb(235, 235, 235);
+}
+
+.projectDescriptionName{
+    margin-top: calc(1.5vh + 1.5vw);
+}
+
+.projectDescription{
+    margin-top: 8px;
+    font-size: 1.9vh;
+}
+
+.block{
+    margin-top: calc(1vh + 0.1vw);
+}
+
+.videoBlock{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+button{
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    border-style: none;
+    padding: calc(0.7vh + 0.7vw);
+
+    font-size: calc(0.7vh + 0.7vw);
+}
+button:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+#backToTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.projectButton{
+    margin: calc(0.2vh + 0.2vw);
+
+    width: 100%;
+}
+
+#navigateTitle{
+    font-size: calc(0.8vh + 0.8vw);
+    margin: calc(1.2vh + 1.2vw);
+    margin-bottom: 2vw;
+}
+
+#title{
+    font-size: calc(1.2vh + 1.2vw);
+    margin: calc(1.8vh + 1.8vw);
+}
+
+.projectButtonInfo{
+    font-size: calc(0.7vh + 0.7vw);
+    margin-top: calc(0.3vh + 0.3vw);
+}

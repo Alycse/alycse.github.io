@@ -1,0 +1,113 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Joshua</title>
+    <link rel="stylesheet" type="text/css" href="/loading.css">
+    <link rel="stylesheet" type="text/css" href="/barcenagame/main.css">
+    <link rel="stylesheet" type="text/css" href="./contact.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("contactForm").submit();
+        }
+    </script>
+</head>
+<body>
+    <div id="loading">
+        <div id="loadingMessage">
+            Loading <span class="pageName">Contact</span> page...
+        </div>
+        <div id="loadingMessage2">
+            This should only take a couple of seconds! -Joshua
+        </div>
+    </div>
+    <div id="game">
+        <div id="gameContent">
+            <div id="homeButton">
+                <span class="pageLink" onclick="fadeOut('/', 6);">
+                    > HOME
+                </span>
+                > CONTACT
+            </div>
+            <div id="contact">
+                <div id="title">
+                    CONTACT ME
+                </div>
+                <div id="emailSection">
+                    <div class="greeting" id="emailGreeting">
+                        I'd love to hear from you!
+                    </div>
+                    <div id="emailContent">
+                        <form id='contactForm' action="/contact/submit/" method="POST">
+                            <input name="mode" type="text" style="display: none" value="advanced">
+                            <div class="block">
+                                <div class="blockTitle">
+                                    Name<span class="required">*</span>
+                                    <span class="error" id="nameError">
+                                        Please input your name!
+                                    </span>
+                                </div>
+                                <input id="name" class="field" type="text" name="name" size="35" maxlength="60" onkeyup="fieldChange(this)">
+                            </div>
+                            <div class="block">
+                                <div class="blockTitle">
+                                    Email Address<span class="required">*</span>
+                                    <span class="error" id="emailError">
+                                        Please input your email!
+                                    </span> 
+                                </div>
+                                <input id="email" class="field" type="text" name="email" size="35" onkeyup="fieldChange(this)">
+                            </div>
+                            <div class="block" id="messageBlock">
+                                <div class="blockTitle">
+                                    Message<span class="required">*</span>
+                                    <span class="error" id="messageError">
+                                        Your message cannot be blank!
+                                    </span>
+                                </div>
+                                <div id="messageField">
+                                    <textarea id="message" name="message" class="field" cols="45" rows="4" maxlength="1200" onkeyup="fieldChange(this)"></textarea>
+                                </div>
+                            </div>
+                            <div class="g-recaptcha"
+                                data-sitekey="6LfXwLoUAAAAAG2ryoouMuRoiGbtN9jIDjufVm2V"
+                                data-callback="onSubmit"
+                                data-size="invisible">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="socialSection">
+                    <div class="greeting" id="socialGreeting">
+                        You may also get in touch with me via:
+                    </div>
+                    <div id="socialContent">
+                        <div class="socialSite">
+                            <a href="mailto:joshuapbarcena@gmail.com" target="_blank">
+                                <img class="socialImage" src="../assets/img/contact/gmail.png"> joshuapbarcena@gmail.com
+                            </a>
+                        </div>
+                        <div class="socialSite">
+                            <a href="https://www.linkedin.com/in/joshuabarcena/" target="_blank">
+                                <img class="socialImage" src="../assets/img/contact/linked-in.png"> Linked In
+                            </a>
+                        </div>
+                        <div class="socialSite">
+                            <a href="https://github.com/Alycse" target="_blank">
+                                <img class="socialImage" src="../assets/img/contact/github.png"> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+</body>
+
+<script type="text/javascript" src="/loading.js"></script>
+<script type="text/javascript" src="/barcenagame/main.js"></script>
+<script type="text/javascript" src="/barcenagame/worldObject.js"></script>
+<script type="text/javascript" src="/barcenagame/input.js"></script>
+<script type="text/javascript" src="/barcenagame/car.js"></script>   
+<script type="text/javascript" src="./contact.js"></script>
+<script type="text/javascript" src="/barcenagame/effects.js"></script>

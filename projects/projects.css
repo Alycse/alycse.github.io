@@ -1,0 +1,163 @@
+
+@media only screen and (orientation: landscape) {
+    #projects{
+        text-align: left;
+        display: none;
+    }
+
+    .small{
+        font-size: 1.2vh;
+    }
+    .medium{
+        font-size: 1.8vh;
+    }
+    .big{
+        font-size: 2.1vh;
+    }
+
+    #intro{
+        display: none;
+
+        margin-left: 31vw;
+        margin-right: 4vw;
+        margin-top: 3vh;
+    
+        padding: 10px;
+    
+        color: rgb(180, 180, 180);
+    
+        border-style: dashed;
+        border-radius: 15px;
+        border-color: rgb(180, 180, 180);
+    
+        font-family: VeraMono;
+
+        font-size: 1.5vh;
+    }
+
+    #introPortrait{
+        display: none;
+    }
+
+    #introVertical{
+        display: none;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #projects{
+        text-align: left;
+    
+        display: none;
+    }
+
+    .small{
+        font-size: 1.2vh;
+    }
+    .medium{
+        font-size: 1.0vh;
+    }
+    .big{
+        font-size: 2.4vh;
+    }
+
+    #intro{
+        display: none;
+    }
+
+    #introPortrait{
+        display: none;
+    }
+
+    #introVertical{
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: VeraMono;
+    src: url(../assets/fonts/VeraMono.ttf);
+}
+
+.project{
+    font-family: VeraMono;
+
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    border-style: dashed;
+    border-radius: 15px;
+    
+    margin-left: 31vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+
+    display: none;
+}
+
+a{
+    color: #8fc3e9;
+}
+a:visited{
+    color: #8fc3e9;
+}
+a:hover{
+    color: #d0b4cf;
+}
+
+.descriptionName{
+    color: rgb(200, 200, 200);
+}
+.description{
+    color: rgb(255, 255, 255);
+}
+.description-light{
+    color: rgb(235, 235, 235);
+}
+
+.projectDescriptionName{
+    margin-top: 24px;
+}
+
+.projectDescription{
+    margin-top: 8px;
+    margin-bottom: 4vh;
+    font-size: 1.8vh;
+}
+
+.block{
+    margin-top: calc(1vh + 0.1vw);
+    margin-bottom: calc(1vh + 0.1vw);
+}
+
+.disclaimer{
+    font-size: 1.5vh;
+    color: rgb(190, 190, 190);
+}
+
+.videoBlock{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    text-align: center;
+}
+
+.highlightBlue{
+    color: #8fc3e9;
+}
+
+.highlightPurple{
+    color: #d0b4cf;
+}
+
+video::-webkit-media-controls-fullscreen-button
+{
+    display: none !important;
+}
+
+video
+{
+    width: 100%;
+    height: 400px;
+}

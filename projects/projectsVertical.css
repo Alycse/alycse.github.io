@@ -1,0 +1,35 @@
+.project{
+    font-family: VeraMono;
+
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    border-style: dashed;
+    border-radius: 15px;
+    
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 27vh;
+
+    display: none;
+}
+
+#introVertical{
+    margin-top: 7vh;
+
+    padding: 10px;
+
+    color: rgb(180, 180, 180);
+
+    font-family: VeraMono;
+
+    font-size: calc(0.9vw + 0.9vh);
+
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+}

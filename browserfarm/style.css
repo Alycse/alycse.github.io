@@ -1,0 +1,775 @@
+@font-face {
+    font-family: 'skranji-regular';
+    src: url('skranji.regular.ttf');
+}
+
+@font-face {
+    font-family: 'skranji-bold';
+    src: url('Skranji-Bold.ttf');
+}
+
+.cr{
+    font-family: monospace;
+    font-size: 14;
+    color:white;
+}
+
+#resetDiv{
+	border: 3px solid black;
+    border-style:ridge;
+    background-image:url("scroll.jpg");
+    border-radius: 5px;
+	padding-top: 15;
+    padding-bottom: 15;
+    box-shadow: -3px 5px 1px black;
+}
+
+#saveLoad{
+    border: 3px solid black;
+    border-style:ridge;
+    background-image:url("scroll.jpg");
+    border-radius: 5px;
+    cursor:hand;
+    cursor:pointer;
+    width:100%;
+    max-width: 100%;
+    color: lightyellow;
+    font-size: 15;
+    margin-top: 300;
+	padding-top: 15;
+    padding-bottom: 15;
+    box-shadow: -3px 5px 1px black;
+}
+
+#totalEarnedCash{
+    max-width: 50%;
+    font-size: 35px;
+    color:gold;
+}
+
+#reset{
+    cursor:hand;
+    cursor:pointer;
+}
+
+#infoDiv{
+	border: 3px solid black;
+	border-style:ridge;
+	background-image:url("scroll.jpg");
+	border-radius: 5px;
+	box-shadow: -3px 5px 1px black;
+	height:190;
+	margin-top: 10;
+	margin-bottom: 15;
+}
+
+nav#top{
+display:inline-block;
+width:100%;
+}
+
+@media screen and (min-width: 0px) {
+
+	#faqText{
+		max-width: 100%;
+		font-size: 17px;
+		color:lightyellow;
+	}
+	#faqTitle{
+		max-width: 100%;
+		font-size: 30px;
+		color:gold;
+	}
+	#faqs{
+		max-width: 100%;
+		font-size: 20px;
+		color:gold;
+	}
+	body {
+		-moz-transform: scale(1.0, 1.0); /* Moz-browsers */
+		zoom: 0.6; /* Other non-webkit browsers */
+		zoom: 60%; /* Webkit browsers */
+	}
+	#sections{
+		position: absolute;
+		margin-top: -36;
+		cursor:hand;
+		cursor:pointer;
+		width:100%;
+		margin-left: -15;
+	}
+	#soil0, #soil1, #soil2, #soil3, #soil4
+	, #soil5, #soil6, #soil7, #soil8, #soil9
+	, #soil10, #soil11, #soil12, #soil13, #soil14
+	, #soil15, #soil16, #soil17, #soil18, #soil19
+	, #soil20, #soil21, #soil22, #soil23, #soil24{
+		width: 25%;
+		height: auto;
+		box-shadow: -0px 0px 5px black;
+	}
+	#rightSide{
+		border: 3px solid black;
+		border-style:ridge;
+		background-image:url("scroll.jpg");
+		border-radius: 5px;
+		cursor:hand;
+		cursor:pointer;
+		box-shadow: -3px 5px 1px black;
+		font-size: 16px;
+		color:lightyellow;
+		width:100%;
+		margin-top: 50;
+	}
+	#info{
+		cursor:hand;
+		cursor:pointer;
+		width:auto;
+		max-width: 86%;
+		height:auto;
+		color:white;
+		font-size: 16;
+	}
+	#levelOfFarm{
+		font-size: 18px;
+		color:#ffd633;
+		font-weight: 300;
+	}
+	#farm{
+		margin-top: 0;
+		cursor:hand;
+		cursor:pointer;
+		color: greenyellow;
+		font-size: 25;
+		text-shadow: 5px 1px 5px black, -1px -1px 5px black, 1px -1px 5px black,
+            -1px 3px 5px black, 2px 2px 5px black;
+		font-family: skranji-bold;
+		font-weight: 300;
+	}
+	#soils{
+		padding-top: 35;
+		display:table-cell;
+	}
+	#a{
+        font-size: 15px;
+        color:gold;
+    }
+    #log{
+		border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+		color:lightyellow;
+	 	font-size: 14px;
+        list-style-type:none;
+		border-radius: 5px;
+        box-shadow: -3px 5px 1px black;
+        cursor:hand;
+        cursor:pointer;
+		width:100%;
+		position: absolute;
+		margin-top: 1450;
+    }
+	#announcements{
+		display:none;
+    }
+    #multiplier{
+        border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+        border-radius: 5px;
+        width: 70.0%;
+        font-size: 20px;
+        color:gold;
+        left:7;
+        height: 40;
+		padding-top: 10;
+        box-shadow: -3px 5px 1px black;
+    }
+	#fishingText{
+		color:gold;
+		font-size:12;
+		margin-bottom: 0;
+	}
+	#fishingBoat{
+		width:200;
+	}
+}
+
+
+a:link {
+    color: lightblue;
+	text-decoration: none;
+}
+a:visited {
+    color: lightgreen;
+	text-decoration: none;
+}
+a:hover{
+	color: lightcyan;
+	text-decoration: none;
+}
+#linkC{
+	color: lightgoldenrodyellow;
+}
+#linkB{
+	font-size: 17;
+}
+
+
+
+@media screen and (min-width: 999px) {
+	#faqText{
+		max-width: 50%;
+		font-size: 17px;
+		color:lightyellow;
+	}
+	#faqTitle{
+		max-width: 50%;
+		font-size: 30px;
+		color:gold;
+	}
+	#faqs{
+		max-width: 50%;
+		font-size: 20px;
+		color:gold;
+	}
+	body {
+		margin-top: 0;
+		-moz-transform: scale(1.0, 1.0); /* Moz-browsers */
+		zoom: 0.9; /* Other non-webkit browsers */
+		zoom: 90%; /* Webkit browsers */
+	}
+	#sections{
+		position: absolute;
+		margin-top: -36;
+		cursor:hand;
+		cursor:pointer;
+		width:100%;
+		margin-left: 0;
+	}
+	#soils{
+		padding-top: 0;
+	}
+	#toolDiv{
+		cursor:hand;
+		cursor:pointer;
+	}
+	#soil0, #soil1, #soil2, #soil3, #soil4
+	, #soil5, #soil6, #soil7, #soil8, #soil9
+	, #soil10, #soil11, #soil12, #soil13, #soil14
+	, #soil15, #soil16, #soil17, #soil18, #soil19
+	, #soil20, #soil21, #soil22, #soil23, #soil24{
+		width: 25%;
+		height: auto;
+		box-shadow: -0px 0px 5px black;
+	}
+	#toolPlant, #toolRemove{
+		width:72;
+	}
+	#rightSide{
+		border: 3px solid black;
+		border-style:ridge;
+		background-image:url("scroll.jpg");
+		border-radius: 5px;
+		cursor:hand;
+		cursor:pointer;
+		box-shadow: -3px 5px 1px black;
+		font-size: 18px;
+		color:lightyellow;
+		position: absolute;
+		margin-left: 77.5%;
+		margin-top: 10;
+		width:21%;
+	}
+	#info{
+		cursor:hand;
+		cursor:pointer;
+		width:auto;
+		max-width: 86%;
+		height:auto;
+		color:white;
+		font-size: 17;
+	}
+	#levelOfFarm{
+		font-size: 18px;
+		color:#ffd633;
+		padding-left: 51.4%;
+		left:-73;
+		margin-top: 65;
+		top:-2;
+		z-index: -999;
+		position: absolute;
+		text-align: left;
+		font-family: skranji-bold;
+		font-weight: 300;
+	}
+	#farm{
+		cursor:hand;
+		cursor:pointer;
+		color: greenyellow;
+		font-size: 40;
+		text-shadow: 5px 1px 5px black, -1px -1px 5px black, 1px -1px 5px black,
+            -1px 3px 5px black, 2px 2px 5px black;
+		font-family: skranji-bold;
+		font-weight: 300;
+	}
+	#a{
+        font-size: 15px;
+        color:gold;
+    }
+    #log{
+        border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+        border-radius: 5px;
+        cursor:hand;
+        cursor:pointer;
+        position: absolute;
+        font-size: 11px;
+        list-style-type:none;
+        color:lightyellow;
+        padding-left: 8;
+        text-align: left;
+        width: 18%;
+        max-width: 50%;
+		padding-top: 15;
+		padding-bottom: 25;
+		padding-right: 10;
+        box-shadow: -3px 5px 1px black;
+		margin-top:65;
+    }
+	#logTitle{
+		display:none;
+	}
+	#announcements{
+		display:block;
+        border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+        border-radius: 5px;
+		margin-left: -10;
+		padding-left: 5;
+		padding-right: 5;
+		margin-top: 35;
+        width: 97%;
+        position: absolute;
+        color:gold;
+        text-align: left;
+        box-shadow: -3px 5px 1px black;
+		font-size: 13;
+    }
+    #multiplier{
+        border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+        border-radius: 5px;
+        width: 20%;
+        position: absolute;
+		padding-top: 7;
+        font-size: 20px;
+        color:gold;
+        left:7;
+        height: 40;
+        margin-top: -2;
+		padding-bottom: 0;
+        box-shadow: -3px 5px 1px black;
+    }
+	#fishingText{
+		color:gold;
+		font-size: 15;
+	}
+	#fishing{
+		position: absolute;
+	}
+	#fishingBoat{
+		width:100%;
+		padding-top: 25;
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width: 1300px) {
+	body {
+		margin-top: 0;
+		-moz-transform: scale(1.0, 1.0); /* Moz-browsers */
+		zoom: 1.0; /* Other non-webkit browsers */
+		zoom: 100%; /* Webkit browsers */
+	}
+	#toolPlant, #toolRemove{
+		width:100;
+		margin-top: 5;
+	}
+	#info{
+		cursor:hand;
+		cursor:pointer;
+		width:auto;
+		max-width: 86%;
+		height:auto;
+		color:white;
+		font-size: 21;
+	}
+	#levelOfFarm{
+		font-size: 15px;
+		color:#ffd633;
+		padding-left: 50.75%;
+		margin-top: 82;
+		top:-5;
+		z-index: -999;
+		position: absolute;
+		font-family: skranji-bold;
+		font-weight: 300;
+	}
+	#farm{
+		cursor:hand;
+		cursor:pointer;
+		color: greenyellow;
+		font-size: 50;
+		font-family: skranji-bold;
+		text-shadow: 5px 1px 5px black, -1px -1px 5px black, 1px -1px 5px black,
+            -1px 3px 5px black, 2px 2px 5px black;
+		font-weight: 300;
+	}
+	#a{
+        font-size: 16;
+        color:gold;
+    }
+     #log{
+		padding-top: 15;
+        position: absolute;
+        left:100;
+        padding-left: 6;
+		padding-bottom: 20;
+		margin-top: 65;
+    }
+    #multiplier{
+        border: 3px solid black;
+        border-style:ridge;
+        background-image:url("scroll.jpg");
+        border-radius: 5px;
+        padding-left: 3;
+		padding-top: 5;
+        width: 16.1%;
+        position: absolute;
+        font-size: 25px;
+        color:gold;
+        left:100;
+        height: 40;
+       	margin-top: -3;
+        box-shadow: -3px 5px 1px black;
+    }
+	#rightSide{
+		margin-left: 73.5%;
+	}
+}
+
+
+
+
+
+
+#pages, #ppages{
+	font-size: 17;
+}
+
+#p1,#p2,#pp1{
+	margin-left:14;
+}
+
+#decPage2{
+	display:none;
+}
+
+#levelOfFarm{
+	visibility:hidden;
+}
+
+#u1{
+	font-size: 22;
+	padding-bottom: 8;
+}
+#questBegin{
+	font-size: 38;
+	margin-top: -33;
+	color:khaki;
+	width:95%
+}
+
+#decIns{
+	font-size: 14;
+}
+#decShowHide{
+	color:gold;
+}
+#decorations{
+	background-position: right 30px center;
+}
+#decorationsShop{
+	display:none;
+	width:95%;
+}
+#decTitle{
+	display: inline;
+}
+#decSpace{
+	display: inline;
+	font-size: 19px;
+	color:lightgreen;
+}
+#decSpace0, #decSpace1, #decSpace2, 
+#decSpace3, #decSpace4, #decSpace5, 
+#decSpace6, #decSpace7, #decSpace8, 
+#decSpace9, #decSpace10, #decSpace11, 
+#decSpace12, #decSpace13, #decSpace14, 
+#decSpace15, #decSpace16, #decSpace17, 
+#decSpace18, #decSpace19, #decSpace20, 
+#decSpace21, #decSpace22, #decSpace23, 
+#decSpace24, #decSpace25, #decSpace26, 
+#decSpace27, #decSpace28, #decSpace29{
+	position: fixed;
+    bottom:0%;
+    z-index: -999;
+    height: auto;
+	width:6%;
+}
+#decorationsError{
+	color:pink;
+    cursor:hand;
+    cursor:pointer;
+    font-size: 14px;
+	cursor:default;
+}
+
+#upgrades{
+	display:none;
+	font-size: 15;
+}
+#upgradeTitle{
+	font-size: 18;
+}
+#u1,#u2,#u3,#u4,#u5,#u6,#u7,#u8{
+	font-family: skranji-bold;
+	border: 3px solid black;
+    background-image:url("upgradeBG.jpg");
+	border-radius: 5px;
+	width:85%;
+	min-height: 30;
+	padding-top: 5;
+	margin-bottom:10;
+	margin-top:10;
+}
+
+#upgradeInfoDiv{
+	border: 3px solid black;
+    border-style:ridge;
+    background-image:url("scroll.jpg");
+    border-radius: 5px;
+	box-shadow: -3px 5px 1px black;
+	height:125;
+	width:90%;
+	font-size: 15;
+}
+
+#decInfoDiv{
+	border: 3px solid black;
+    border-style:ridge;
+    background-image:url("scroll.jpg");
+    border-radius: 5px;
+	box-shadow: -3px 5px 1px black;
+	height:60;
+	width:90%;
+	font-size: 15;
+	margin-top: 4;
+	padding-bottom: 15;
+}
+
+h1{
+	margin: 0;
+  	padding: 0;
+}
+
+@media screen and (max-width: 998px) {
+	#logo{
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+	}
+	#hi{
+		display:none;
+	}
+	#error{
+		color:pink;
+		cursor:default;
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 999px) {
+	#logo{
+		position: absolute;
+		margin-left: 5%;
+		margin-top: 76;
+		width:100;
+	}
+	#hi{
+		position: absolute;
+		margin-top:64;
+		margin-left: 5%;
+		color:gold;
+	}
+	#error{
+		color:pink;
+		cursor:default;
+		font-size: 20px;
+		margin-left:0;
+		width:100%;
+		margin-top: 5;
+	}
+}
+@media screen and (min-width: 1300px) {
+	#logo{
+		margin-top: 0;
+		position: absolute;
+		margin-left: -0.5%;
+		width:120;
+		height: auto;
+	}
+	#hi{
+		position: absolute;
+		margin-top:60;
+		margin-left: -0.5%;
+		color:gold;
+	}
+}
+@media screen and (min-width: 1400px) {
+	#logo{
+		margin-top: 0;
+		position: absolute;
+		margin-left: 5%;
+		width:120;
+		height: auto;
+	}
+	#hi{
+		position: absolute;
+		margin-top:60;
+		margin-left: 5%;
+		color:gold;
+	}
+}
+
+body{
+    background-color: blanchedalmond;
+    //background-image: url(/backgrounds/lava.jpg);
+    font-family: skranji-regular;
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black,
+            -1px 1px 2px black, 2px 2px 1px black;
+	font-weight: 300;
+}
+
+#cash{
+    border: 3px solid black;
+    border-style:ridge;
+    background-image:url("scroll.jpg");
+    border-radius: 5px;
+	box-shadow: -3px 5px 1px black;
+    color: lightgreen;
+    font-size: 32;
+	width:90%;
+}
+
+#questDiv{
+	color:lightyellow;
+	font-size: 24;
+	display:none;
+}
+#questAbandon{
+	color:lightgoldenrodyellow;
+}
+#questText{
+	color:lightgoldenrodyellow;
+}
+#quest1V, #quest2V, #quest3V, #questTimeV, #questRewardV{
+	color:khaki;
+}
+
+#questAlert{
+	color:gold;
+	font-size: 21;
+	display:none;
+}
+
+#upgradeError{
+    color:pink;
+    cursor:default;
+    font-size: 16px;
+}
+
+.cover{
+	filter:grayscale(30%); 
+    -webkit-filter: grayscale(30%);
+}
+
+.sel{
+	filter:grayscale(85%); 
+    -webkit-filter: grayscale(85%);
+}
+
+.selS{
+	filter:grayscale(35%); 
+    -webkit-filter: grayscale(35%);
+	z-index: 999!important;
+}
+
+.selPlant{
+	filter:grayscale(30%); 
+    -webkit-filter: grayscale(30%);
+}
+
+#feedback{
+    max-width: 50%;
+    font-size: 17px;
+    color:lightyellow;
+}
+
+#plantDivImages{
+	visibility: hidden;
+}
+
+#plantDiv{
+	width:90%;
+}
+
+#sectionSeeds{
+	position: relative;
+	z-index: 998;
+}
+
+#sectionUpgrades{
+	position: relative;
+	margin-left: -10;
+	z-index: 997;
+}
+
+#sectionDecorations{
+	position: relative;
+	margin-left: -10;
+	z-index: 996;
+}
+
+#sectionQuest{
+	position: relative;
+	margin-left: -10;
+	z-index: 996;
+}
+
+#questText{
+	font-size: 16;
+	width:80%;
+}
+
+#upgradeInfo{
+	margin-top: 0;
+	padding-top: 7;
+	max-width:90%;
+}

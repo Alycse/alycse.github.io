@@ -1,0 +1,31 @@
+#loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+
+    width: 100%;
+
+    display: none;
+}
+
+#loadingMessage{
+    margin: 2vh;
+    font-size: 3vh;
+}
+
+#loadingMessage2{
+    color: rgb(170, 170, 170);
+    font-size: 2vh;
+}
+
+#game{
+    opacity: 0;
+}
+
+.pageName{
+    color: #8fc3e9;
+}

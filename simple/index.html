@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Joshua Philip Barcena - Simple Mode</title>
+        <link rel="stylesheet" type="text/css" href="/simple/main.css">
+        <link rel="stylesheet" type="text/css" href="/home.css">
+    </head>
+    <body>
+        <div id="compatibilityMessage"></div>
+        <div id="content">
+            <div id="homeButton">
+                <span class="modeChanger pageLink" onclick="loadPage('/');">
+                    > ACTIVATE ADVANCED MODE <
+                </span>
+            </div>
+            <div id="intro">
+                <div id="greeting">
+                    Hello! I am Joshua Philip Barcena
+                </div>
+                <div id="greeting2">
+                    I'm a developer!
+                </div>
+                <div id="tip">
+                    You're currently viewing the <span class="highlightBlue">Simple</span> version of my site.
+                    <br>
+                    Click <a href="/">here</a> or the text above that says 
+                    <span class="highlightPurple">Activate Advanced Mode</span> in order to view the "Advanced" version of my site!
+                </div>
+                <div id="navigation">
+                    <button id="about" onclick="loadPage('/simple/about');">ABOUT ME</button>
+                    <button id="skills" onclick="loadPage('/simple/skills');">SKILLS</button>
+                    <button id="projects" onclick="loadPage('/simple/projects');">PROJECTS</button>
+                    <button id="contact" onclick="loadPage('/simple/contact');">CONTACT</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="/simple/simpleMain.js"></script>
+    <script>
+        function loadPage(page){
+            window.location.href = page;
+        }
+    </script>
+</html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Joshua's Projects</title>
+        <link rel="stylesheet" type="text/css" href="/loading.css">
+        <link rel="stylesheet" type="text/css" href="/barcenagame/main.css">
+        <link id="css" rel="stylesheet" type="text/css" href="./projects.css">
+    </head>
+    <body>
+        <div id="loading">
+            <div id="loadingMessage">
+                Loading <span class="pageName">Projects</span> page...
+            </div>
+            <div id="loadingMessage2">
+                This should only take a couple of seconds! -Joshua
+            </div>
+        </div>
+        <div id="game">
+            <div id="gameContent">
+                <div id="homeButton">
+                    <span class="pageLink" onclick="fadeOut('/', 6);">
+                        > HOME
+                    </span>
+                    > PROJECTS
+                </div>
+                <div id="intro">
+                    Welcome to my PROJECTS page! Jump on a cloud to view one of my works!
+                    You may also click the logo of the project to view it instantly!<br>
+                    - <span class="highlightBlue">Fall down</span> <span class="highlightPurple">the screen</span> to go back home! -
+                </div>
+                <div id="introVertical">
+                    Welcome to my PROJECTS page! Jump on a cloud to view one of my works!<br>
+                    You may also click the logo of the project to view it instantly!<br>
+                    - <span class="highlightBlue">Fall down</span> <span class="highlightPurple">the screen</span> to go back home! -
+                </div>
+                <div id="introPortrait">
+                    Welcome to my PROJECTS page!<br>
+                    Click the logo of a project to view it!
+                </div>
+                <div id="projects">
+                    <div id="project0" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Twitch VOD with Chat Player</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">APPLICATION, TOOL</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">MAY 2019</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://github.com/Alycse/TwitchVodWithChatPlayer" target="_blank">
+                                    GITHUB LINK / DOWNLOAD LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                This is a program that allows you to watch Twitch VODs alongside chat!
+                                <br><br>
+                                The player automatically syncs up the chat messages of the VOD with the current time of the video,
+                                so you can watch it like a regular VOD on Twitch's website, even if you're offline!
+                                <br><br>
+                                Using Twitch, BTTV, and FFZ's APIs, this application also allows you to enable and show
+                                emoticons!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/tvwcp.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project1" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Suzy's Trial / AI Checkers</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">DESKTOP GAME, SCHOOL PROJECT</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">MARCH 2017</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C# (and the other version in Java)</span>
+                        </div>
+                        <!--
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://google.com" target="_blank">
+                                    DOWNLOAD LINK
+                                </a>
+                            </span>
+                        </div>
+                        !-->
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Suzy's Trial is a checkers-inspired game with modified rules.
+                                <br><br>
+                                The player can choose whether to battle an AI or another player.
+                                <br><br>
+                                The AI uses a <span class="highlightBlue">Minimax Algorithm with Alpha-beta pruning</span>, with an evaluation function
+                                that I designed.
+                                <br><br>
+                                The goal of the game is to have all your pieces on the opposite side of where they initially were.
+                                The players can either move a piece to an adjacent tile, or have a piece hop over other pieces.
+                                When a player doesn't have a possible move upwards and leftwards,
+                                then it can swap with a piece adjacent to it.
+                                <br><br>
+                                This game was originally our submission to a class tournament that our AI professor held,
+                                in which we won <span class="highlightPurple">1st place</span>.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/suzys-trial.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project2" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Colour Shapes</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">DESKTOP GAME, SCHOOL PROJECT</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">MAY 2019</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://alycse.itch.io/colourshapes" target="_blank">
+                                    ITCH.IO LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Colour Shapes is a game where the objective is to form certain shapes by "flipping"
+                                the balloons on the board.
+                                <br><br>
+                                It uses an algorithm that I designed which can detect whether the player has formed a
+                                rectangle, triangle, or diamond of  <span class="highlightPurple">any size</span>.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/colour-shapes.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project3" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">They Know</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">DESKTOP GAME, THESIS</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">OCTOBER 2018</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#, Python, Javascript, PHP, SQL</span>
+                        </div>
+                        <!--
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://jbarcena.com/theyknow" target="_blank">
+                                    DOWNLOAD LINK
+                                </a>
+                            </span>
+                        </div>
+                        -->
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                They Know is a horror game where you're constantly being chased by a
+                                <span class="highlightPurple">Pathfinding AI</span> that I designed,
+                                which is a modified/enhanced version of the A* algorithm.
+                                <br><br>
+                                The AI uses a 
+                                <a href="https://ejournals.ph/article.php?id=14056" target="_blank">modified/enhanced MT-Adaptive A* algorithm</a>.
+                                It adapts to the player's behaviour and collects data based on the player's
+                                movement patterns to predict where it will be at a certain point in time. It was then compared to
+                                the Lazy MT-Adaptive A* algorithm by Koenig, Likhachev, and Sun.
+                                <br><br>
+                                The game also uses the
+                                <span class="highlightPurple"><a href="https://www.affectiva.com" target="_blank">Affectiva</a></span>
+                                API to detect the player's emotions and facial expressions in real-time during gameplay.
+                                The game will also modify its difficulty based on the player's emotions, and "a voice in your head"
+                                will be talking based on what face you're currently making while playing.
+                                <br><br>
+                                At the end of each level, a survey is presented to the player, and the answers are sent to our database.
+                                We used HEXACO for our survey in order to determine the player's personality after playing the game.
+                                The purpose of this is to determine how the player's personality affects his/her gameplay.
+                                <br><br>
+                                This game and its pathfinding algorithm, was submitted as our Computer Science thesis.
+                                It won <span class="highlightPurple">First Place Best Thesis</span> in our college colloqium.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/they-know.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project4" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">LETTERSNAKE</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">BROWSER GAME, SCHOOL PROJECT</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">NOVEMBER 2018</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://alycse.itch.io/lettersnake" target="_blank">
+                                    ITCH.IO LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                LETTERSNAKE is a game where you control a snake that eats letters, and you must
+                                form a word based on the question currently displayed on the screen.
+                                <br><br>
+                                The snake may also eat <span class="highlightBlue">Delete Orbs</span> to delete the
+                                most recent letter it ate, and it may also eat <span class="highlightPurple">Explode Orbs</span>
+                                to delete all letters currently inside it.
+                                <br><br>
+                                This game was submitted as one of our projects for our Philippine Government class, in which we were
+                                required to make a Q&A or Trivia-type game, but the questions are government-related.
+                                I decided to make the question set "flexible" in a way that anyone can
+                                input whatever data (question and answer) they want. Users may also export and import question sets
+                                by copying a code generated by the game.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/lettersnake.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project5" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">DROP MATRIX</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">MOBILE GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">MAY 2017</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://play.google.com/store/apps/details?id=com.Barcena.DropMatrix" target="_blank">
+                                    GOOGLE PLAY STORE LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Drop Matrix is a mobile game where you drop and stack shapes of various sizes while
+                                making sure none of the shapes fall down!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/drop-matrix.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project6" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">ORB IT</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">MOBILE GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">NOVEMBER 2016</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://play.google.com/store/apps/details?id=com.Barcena.OrbIt" target="_blank">
+                                    GOOGLE PLAY STORE LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                ORB IT is an endless game where you control a "rocket ship" that orbits around
+                                planets.
+                                <br>
+                                By tapping the screen, the rocket ship will go forward. If it doesn't hit another
+                                planet, you lose!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/orb-it.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project7" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Pepega Catch!</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">BROWSER EXTENSION / BROWSER GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">AUGUST 2019</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">Javascript</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://chrome.google.com/webstore/detail/pepega-catch/pgjlemoacllebidgpchfhdgeifkmbigi" target="_blank">GOOGLE CHROME LINK</a>
+                            </span>,
+                            <span class="small descriptionName">
+                                <a href="https://addons.mozilla.org/en-US/firefox/addon/pepega-catch/" target="_blank">MOZILLA FIREFOX LINK</a>
+                            </span>,
+                            <span class="small descriptionName">
+                                <a href="https://www.reddit.com/r/playmygame/comments/cw0avx/pepega_catch_a_browser_extension_that_allows_you/" target="_blank">REDDIT POST</a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Pepega Catch! is a browser extension that allows you to catch and battle "<span class="highlightBlue">Pepegas</span>"!
+                                <br><br>
+                                This extension inserts Pepegas in webpages that you visit, and you can catch the Pepega by clicking on it!
+                                <br><br>
+                                Your Pepega Army will then <span class="highlightPurple">battle</span> the Pepega.
+                                If you win, you get to add it to your army!
+                                <br><br>
+                                Pepegas also have <span class="highlightBlue">Natural Habitats</span>, the habitat being the website.
+                                This means you'll be able to find more Pepegas of a particular type that is related to the website you're currently on.
+                                <br><br>
+                                This extension is currently <span class="highlightPurple">featured</span> by Google on the Chrome Web Store!
+                                <br><br>
+                                At the time of writing, this extension currently has <span class="highlightPurple">1000+ concurrent users</span> and <span class="highlightPurple">30+ perfect ratings</span> on the Crome Web Store!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/pepega-catch.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project8" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Alden's Challenge</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">MOBILE GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">NOVEMBER 2015</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://play.google.com/store/apps/details?id=com.Barcena.AlDub" target="_blank">
+                                    GOOGLE PLAY STORE LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                An action-arcade game based on Alden Richards and Maine Mendoza, popularly known as AlDub!
+                                <br><br>
+                                In this game, you play as Alden, and you must collect Lola Nidora's "pool noodles", while avoiding Frankie's money bags!
+                                At the same time, the other Lola's will appear as a cameo to provide bonus points.
+                                <br><br>
+                                To rescue Maine and get the good ending, you must gather a total of 1000 points!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/aldens-challenge.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project9" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Art of Peril</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">MOBILE GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">AUGUST 2014</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://play.google.com/store/apps/details?id=com.Aayeon.ArtofPeril" target="_blank">
+                                    GOOGLE PLAY STORE LINK
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Art of Peril is a game where you control a flying saucer called the <span class="highlightPurple">HYDRA</span>.
+                                <br><br>
+                                As the <span class="highlightPurple">HYDRA</span>, you must avoid missiles and destroy them by
+                                letting them <span class="highlightBlue">hit each other</span>!
+                                <br><br>
+                                <span class="highlightPurple">This is the very first game that I published publicly online!</span>
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/art-of-peril.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project10" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">BrowserFarm</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">WEBSITE / BROWSER GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">MARCH 2016</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">Javascript</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="/browserfarm" target="_blank">
+                                    GAME LINK
+                                </a>
+                            </span>,
+                            <span class="small descriptionName">
+                                <a href="https://www.reddit.com/r/WebGames/comments/4c9w3w/browserfarm_a_farm_for_your_browser/" target="_blank">
+                                    REDDIT POST #1
+                                </a>
+                            </span>,
+                            <span class="small descriptionName">
+                                <a href="https://www.reddit.com/r/incremental_games/comments/4ciqva/browserfarm_a_farm_for_your_browser_xpost/" target="_blank">
+                                    REDDIT POST #2 (BY ANOTHER USER)
+                                </a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                BrowserFarm is a web browser farm game that I made a long time ago when I was still only learning Javascript.
+                                <br><br>
+                                In this game, you can plant various crops in your <span class="highlightPurple">browser land</span> and 
+                                wait <span class="highlightBlue">in real-time</span> until they're ready to be harvested.
+                                <br><br>
+                                If you leave your crops for long enough without harvesting them, they can start to rot and eventually die,
+                                earning you less money.
+                                <br><br>
+                                You can also buy upgrades, buy decorations for your land, do quests, do some fishing, and more!
+                                <br><br>
+                                This game was purely written in Javascript.
+                                <br><br>
+                                <div class="disclaimer">
+                                    Please note that this game is unfinished and has been abandoned since 2016.
+                                    The game in the link above is for demo purposes only.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/browserfarm.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project11" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">This Website!</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">WEBSITE</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">SEPTEMBER 2019</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">HTML5, Javascript, PHP</span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                Created in less than a week, I wrote this website from scratch using HTML5's Canvas and Javascript!
+                                <br><br>
+                                This was my attempt on trying to be creative...
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="300vw" controls loop>
+                                <source src="../assets/videos/website.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project12" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Game Crunch</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">WEBSITE, SCHOOL PROJECT</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">NOVEMBER 2017</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN/CREATED WITH:</span>
+                            <span class="medium description-light">Java, JSPs, Java Servlets, SQL, JDBC, Hibernate, Apache Struts 2, PayPal's Payments REST API</span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                This website was submitted as a project for our Web Development and Database class, where we were required to create
+                                a site that makes use of a database using JSPs, Java Servlets, JDBC, Hibernate, and Apache Struts 2,
+                                with Microsoft SQL Server as our database management system.
+                                <br><br>
+                                <span class="highlightPurple">Game Crunch</span> is a video game distribution website where users can either buy games or 
+                                upload their own games. The users can also leave reviews and give ratings to each game.
+                                <br><br>
+                                The website uses <span class="highlightBlue">PayPal's Payments REST API</span> for buying games and receiving money
+                                from sales. During our live presentation, we used PayPal sandbox accounts in order to simulate
+                                buying/selling games.
+                                <br><br>
+                                Users with admin rights can also <span class="highlightPurple">feature</span> a game
+                                and have the game's banner be displayed on the homepage.
+                                <br><br>
+                                This was made exclusively for educational purposes, and none of the games
+                                you see in the video were actually uploaded to the site by the games' actual creators
+                                (except for <span class="highlightBlue">They Know</span>).
+                                The site was also never published publicly online.
+                                <br><br>
+                                With several judges voting (including our Java Web Dev and Database professor) on which website submission was the best one based on multiple criterias,
+                                we were fortunate enough to win <span class="highlightPurple">1st place</span>.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/game-crunch.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project13" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">YouTube Enhanced Extension</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">BROWSER EXTENSION</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">DECEMBER 2021</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">Javascript</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://chrome.google.com/webstore/detail/youtube-enhanced-extensio/oobgojiochekabnidddglbpbikhnfidb" target="_blank">GOOGLE CHROME LINK</a>
+                            </span>,
+                            <span class="small descriptionName">
+                                <a href="https://addons.mozilla.org/en-GB/firefox/addon/youtube-enhanced-extension/" target="_blank">MOZILLA FIREFOX LINK</a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                The YouTube Enhanced Extension enables various Twitch emotes for YouTube comments for free!
+                                <br><br>
+                                Another feature is that it will display <span class="highlightBlue">time-stamped</span> comments inside the video itself, similar to how Niconico works!
+                                This feature makes use of the YouTube Data API.
+                                <br><br>
+                                Because of how YouTube displays its comments, creating this extension was a lot more complicated than I thought it would be,
+                                but after studying the pattern of how the comments are displayed, as well as some trial and error, I was able to get it to work.
+                                <br><br>
+                                This extension is currently <span class="highlightPurple">featured</span> by Google on the Chrome Web Store!
+                                <br><br>
+                                At the time of writing, this extension currently has <span class="highlightPurple">500+ concurrent users</span> and <span class="highlightPurple">30+ perfect ratings</span> on the Crome Web Store!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/enhanced.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project14" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">Coronavirus Blaster AR</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">MOBILE GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">JANUARY 2020</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">CREATED WITH:</span>
+                            <span class="medium description-light">Unity, C#</span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                My very first AR game - made with Unity!
+                                <br><br>
+                                I made this for fun during the pandemic because there was nothing else to do.
+                                <br><br>
+                                I couldn't publish it on the Google Play Store due to Google's policy regarding COVID-19-related content, which I completely understand. It was a great learning experience nonetheless!
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/coronavirus.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="project15" class="project">
+                        <div class="block">
+                            <span class="medium descriptionName">TITLE:</span>
+                            <span class="big description">tty-mania</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">TYPE:</span>
+                            <span class="medium description-light">LINUX TERMINAL GAME</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">DATE CREATED:</span>
+                            <span class="medium description-light">OCTOBER 2019</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">WRITTEN IN:</span>
+                            <span class="medium description-light">C</span>
+                        </div>
+                        <div class="block">
+                            <span class="small descriptionName">
+                                <a href="https://github.com/Alycse/tty-mania" target="_blank">GITHUB LINK</a>
+                            </span>
+                        </div>
+                        <div class="block">
+                            <div class="small descriptionName projectDescriptionName">
+                                DESCRIPTION:
+                            </div>
+                            <div class="description-light projectDescription">
+                                After installing Arch Linux for the first time, I decided to make a game that you can play on your terminal - based on my favorite rhythm game osu!mania! This was also my first time coding in C.
+                                <br><br>
+                                You can load .osu files to my program to play its beatmap and music.
+                            </div>
+                        </div>
+                        <div class="videoBlock">
+                            <video class="projectVideo" width="auto" height="0" controls loop>
+                                <source src="../assets/videos/tty-mania.webm" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </body>
+    
+    <script type="text/javascript" src="/loading.js"></script>
+    <script type="text/javascript" src="/barcenagame/main.js"></script>
+    <script type="text/javascript" src="/barcenagame/worldObject.js"></script>
+    <script type="text/javascript" src="/barcenagame/input.js"></script>
+    <script type="text/javascript" src="/barcenagame/platformer.js"></script>   
+    <script type="text/javascript" src="./projects.js"></script>
+    <script type="text/javascript" src="/barcenagame/effects.js"></script>
+</html>

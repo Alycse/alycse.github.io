@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description" content="I am Joshua Philip Barcena. Welcome to my website!">
+        <title>Joshua Philip Barcena</title>
+        <link rel="stylesheet" type="text/css" href="./loading.css">
+        <link rel="stylesheet" type="text/css" href="./barcenagame/main.css">
+        <link rel="stylesheet" type="text/css" href="./home.css">
+    </head>
+    <body>
+        <div id="loading">
+            <div id="loadingMessage">
+                Loading homepage...
+            </div>
+            <div id="loadingMessage2">
+                This should only take a couple of seconds! -Joshua
+            </div>
+        </div>
+        <div id="game">
+            <div id="gameContent">
+                <div id="homeButton">
+                    <span id="homeText" class="pageLink modeChanger" onclick="fadeOut('/simple', 6);">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </body>
+    <script type="text/javascript" src="./loading.js"></script>
+    <script type="text/javascript" src="./barcenagame/main.js"></script>
+    <script type="text/javascript" src="./barcenagame/worldObject.js"></script>
+    <script type="text/javascript" src="./barcenagame/input.js"></script>
+    <script type="text/javascript" src="./barcenagame/effects.js"></script>
+    <script type="text/javascript" src="./barcenagame/shooter.js"></script>
+    <script type="text/javascript" src="./home.js"></script>
+</html>

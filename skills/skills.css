@@ -1,0 +1,28 @@
+#skills{
+    margin-top: 5vh;
+}
+
+@media only screen and (orientation: landscape) {
+    #title{
+        font-size: 3.7vh;
+    }
+    #title{
+        margin-top: 4.7vh;
+    }
+}
+@media only screen and (orientation: portrait) {
+    #title{
+        font-size: 2.8vh;
+    }
+    #title{
+        margin-top: 10.7vh;
+    }
+}
+
+#content{
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 15px;
+
+    visibility: hidden;
+}

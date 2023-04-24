@@ -1,0 +1,52 @@
+#content{
+    margin-top: calc(14.0vh + 3.0vw);
+}
+
+#intro{
+    text-align: center;
+}
+
+#greeting{
+    margin-top: calc(1.5vh + 1.5vw);
+
+    font-size: calc(1.8vh + 1.8vw);
+}
+
+#greeting2{
+    margin-top: calc(1.5vh + 1.5vw);
+
+    color: rgb(200, 200, 200);
+
+    font-size: calc(1.5vh + 1.5vw);
+}
+
+#tip{
+    margin-top: calc(3.0vh + 3.0vw);
+
+    font-size: calc(0.8vh + 0.8vw);
+
+    color: rgb(180, 180, 180);
+}
+
+#navigation{
+    margin-top: calc(2.0vh + 2.0vw);
+}
+
+button{
+    font-size: calc(0.9vh + 0.9vw);
+    padding: calc(0.9vh + 0.9vw);
+
+    background-color: rgb(40, 40, 40);
+    color: rgb(240, 240, 240);
+
+    border-style: none;
+}
+
+button:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.modeChanger{
+    font-size: calc(0.8vh + 0.8vw);
+}
