@@ -60,7 +60,7 @@ function initSkills(){
         fence = createWorldObject("Fence", {name: "image", 
             images: {default: "/assets/img/car/fence.png"}, opacities: {default: 0.4}}, 
             0, -buildingPosY * 2, 0, 1.5, 3);
-            spawnWorldObject(fence);
+            //spawnWorldObject(fence);
 
         roadFence = createWorldObject("Road Fence", {name: "image", 
             images: {default: "/assets/img/car/road-fence.png"}, opacities: {default: 0.85}}, 
@@ -89,7 +89,7 @@ function initSkills(){
         fence = createWorldObject("Fence", {name: "image", 
             images: {default: "/assets/img/car/fence.png"}, opacities: {default: 0.4}}, 
             0, -buildingPosY, 0, 0.75, 3);
-            spawnWorldObject(fence);
+            //spawnWorldObject(fence);
 
         roadFence = createWorldObject("Road Fence", {name: "image", 
             images: {default: "/assets/img/car/road-fence.png"}, opacities: {default: 0.85}}, 
