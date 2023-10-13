@@ -200,7 +200,7 @@ function createSkillBuilding(name, position, imgSrc){
 
     skillBuildingCollider = createWorldObject(name + " Collider", {name: "image", 
     images: {default: "/assets/img/skills/building-collider.png"}, opacities: {default: 1}}, 
-    position.x, 0, 0, buildingSize, 4, "wall");
+    position.x, 0, 0, buildingSize, 5, "wall");
 
     var skillBuildingColliderNewPosY = 
         getExactModifiedNormalizedPosition(skillBuilding, {x: 0, y: (skillBuilding.height/4) - (skillBuildingCollider.height/4)}).y;
