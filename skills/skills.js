@@ -74,7 +74,7 @@ function initSkills(){
             images: {default: "/assets/img/car/road.png"}, opacities: {default: 1.0}}, 
             0, 0.78, 0, 1.5, 3, "fence");
 
-        spawnWorldObject(fence);
+        //spawnWorldObject(fence);
         spawnWorldObject(roadFence);
         spawnWorldObject(road);
     }else{
