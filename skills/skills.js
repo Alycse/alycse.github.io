@@ -63,18 +63,18 @@ function initSkills(){
         createCloud({x: 0.82, y: -0.49}, 0.65, 0.02);
 
         fence = createWorldObject("Fence", {name: "image", 
-            images: {default: "/assets/img/car/fence.png"}, opacities: {default: 0.4}}, 
-            0, -buildingPosY * 1.7, 0, 1.5, 3);
+            images: {default: "/assets/img/car/fence.png"}, opacities: {default: 0.4}},
+            0, -buildingPosY * 1.7, 0, 1.5, 3, "fence");
             spawnWorldObject(fence);
 
         roadFence = createWorldObject("Road Fence", {name: "image", 
             images: {default: "/assets/img/car/road-fence.png"}, opacities: {default: 0.85}}, 
-            0, 0.55, 0, 1.5, 3);
+            0, 0.55, 0, 1.5, 3, "fence");
             spawnWorldObject(roadFence);
         
         road = createWorldObject("Road", {name: "image", 
             images: {default: "/assets/img/car/road.png"}, opacities: {default: 1.0}}, 
-            0, 0.78, 0, 1.5, 3);
+            0, 0.78, 0, 1.5, 3, "fence");
             spawnWorldObject(road);
     }else{
         var buildingPosY = -0.1;
