@@ -31,6 +31,7 @@ function initSkills(){
     car.FRICTION = 1.6;
     car.STEERING_SPEED = 120;
     car.velocity = 0;
+    car.layer = 0;
     spawnWorldObject(car);
 
     var url = new URL(window.location.href);
